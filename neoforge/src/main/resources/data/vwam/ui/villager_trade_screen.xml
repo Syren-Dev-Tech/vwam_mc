@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<part id="villager_trade_screen" width="100%" height="100%" flex="column" style="backgroundColor:#8B7355"
+    xmlns="https://syren-dev-tech.com/slml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://syren-dev-tech.com/slml https://raw.githubusercontent.com/Syren-Dev-Tech/slml/refs/heads/main/schema/layout-schema.xsd"
+>
+
+    <!-- DATA SOURCES (v2.0) -->
+    <!-- Define where data comes from - NO JAVA CODE CHANGES NEEDED! -->
+    <datasource id="available_trades" path="vwam:lists/trades.json" format="json-array" cache="true" />
+
+    <!-- Header Section: Shows villager name and profession -->
+    <part id="header" width="100%" height="16" flex="row" style="backgroundColor:#6B5345;borderColor:#3C2F23;padding:4">
+        <text id="villager_name_text" width="48%" height="12" style="color:#FFFFFF;fontSize:12">{{villager_name}}</text>
+        <text id="profession_text" width="48%" height="12" style="color:#CCCCCC;fontSize:10">{{profession}}</text>
+    </part>
+
+    <!-- Emeralds Info Section: Shows village and player resources -->
+    <part id="emeralds_info" width="100%" height="15" flex="row" style="backgroundColor:#7A6355;borderColor:#5C4C3C;padding:4">
+        <text id="village_emeralds_text" width="48%" height="11" style="color:#FFD700;fontSize:11">Village: {{village_emeralds}}</text>
+        <text id="player_emeralds_text" width="48%" height="11" style="color:#FFD700;fontSize:11">You: {{player_emeralds}}</text>
+    </part>
+
+    <!-- Trades Container: Displays available trades -->
+    <!-- flex-grow="1" makes it expand to fill all remaining vertical space -->
+    <part id="trades_container" width="100%" flex="column" flex-grow="1" style="backgroundColor:#8A6F5C;borderColor:#5C4C3C;padding:4">
+
+        <!-- Trades Section Title -->
+        <text id="trades_title" width="100%" height="11" style="color:#FFFFFF;fontSize:11">Available Trades</text>
+
+        <!-- Dynamic Trades List (v2.0) -->
+        <!-- Uses <repeated datasource="available_trades"> to reference the datasource declared
+        above -->
+        <!-- No more dict="{{placeholder}}" - data paths defined in XML! -->
+        <repeated datasource="available_trades">
+            <layout>vwam:ui/trade_item</layout>
+        </repeated>
+    </part>
+
+    <!-- Footer Section: Status message and close button -->
+    <part id="footer" width="100%" height="38" flex="row" style="backgroundColor:#6B5345;borderColor:#5C4C3C;padding:4">
+        <text id="status_message_text" width="74%" height="11" style="color:#FFD700;fontSize:10">{{status_message}}</text>
+        <button id="close_button" width="22%" height="30" vanilla="true"> Close </button>
+    </part>
+</part>

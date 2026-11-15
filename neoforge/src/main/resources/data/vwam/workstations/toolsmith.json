@@ -1,0 +1,5 @@
+{
+  "block": "minecraft:smithing_table",
+  "display_name": "Smithing Table",
+  "is_poi": true
+}

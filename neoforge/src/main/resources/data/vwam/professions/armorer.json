@@ -1,0 +1,113 @@
+{
+  "profession": "armorer",
+  "display_name": "Armorer",
+  "description": "Specialized in armor crafting and maintenance",
+  "workstation_block": "minecraft:blast_furnace",
+  "trades": [
+    {
+      "item": "minecraft:coal",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:copper_ore",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:iron_ore",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:diamond",
+      "reputation_sell": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:quartz",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:iron_helmet",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:iron_chestplate",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:iron_leggings",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:iron_boots",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:chainmail_helmet",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:chainmail_chestplate",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:chainmail_leggings",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:chainmail_boots",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:diamond_helmet",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:diamond_chestplate",
+      "reputation_buy": 0.0,
+      "level": 5
+    },
+    {
+      "item": "minecraft:diamond_leggings",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:diamond_boots",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:diamond_helmet",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:diamond_chestplate",
+      "reputation_buy": 0.0,
+      "level": 5
+    }
+  ]
+}

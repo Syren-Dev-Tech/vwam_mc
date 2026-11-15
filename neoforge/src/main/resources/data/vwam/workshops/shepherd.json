@@ -1,0 +1,122 @@
+{
+  "profession": "shepherd",
+  "display_name": "Shepherd Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:loom",
+        "minecraft:crafting_table",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Wool processing, fabric crafting, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other loom within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:white_wool",
+      "level": 1,
+      "comment": "Basic wool production"
+    },
+    {
+      "item": "minecraft:orange_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:magenta_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:light_blue_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:yellow_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:lime_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:pink_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:gray_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:light_gray_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:cyan_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:purple_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:blue_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:brown_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:green_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:red_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:black_wool",
+      "level": 1,
+      "comment": "Dyed wool"
+    },
+    {
+      "item": "minecraft:banner",
+      "level": 2,
+      "comment": "Advanced fabric work"
+    }
+  ]
+}

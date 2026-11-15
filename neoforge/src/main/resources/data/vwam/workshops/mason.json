@@ -1,0 +1,72 @@
+{
+  "profession": "mason",
+  "display_name": "Mason Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:stonecutter",
+        "minecraft:furnace",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Stone cutting, smelting, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other stonecutter within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:stone",
+      "level": 1,
+      "comment": "Basic stone block"
+    },
+    {
+      "item": "minecraft:granite",
+      "level": 1,
+      "comment": "Decorative stone"
+    },
+    {
+      "item": "minecraft:diorite",
+      "level": 1,
+      "comment": "Decorative stone"
+    },
+    {
+      "item": "minecraft:andesite",
+      "level": 1,
+      "comment": "Decorative stone"
+    },
+    {
+      "item": "minecraft:stone_stairs",
+      "level": 2,
+      "comment": "Processed stone variants"
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "level": 2,
+      "comment": "Processed stone variants"
+    },
+    {
+      "item": "minecraft:chiseled_stone_bricks",
+      "level": 3,
+      "comment": "Advanced stone work"
+    }
+  ]
+}

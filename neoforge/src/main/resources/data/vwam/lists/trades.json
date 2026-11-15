@@ -1,0 +1,52 @@
+[
+  {
+    "trade_type": "Sells",
+    "trade_input": "minecraft:emerald",
+    "trade_input_qty": "1",
+    "trade_output": "minecraft:enchanted_book",
+    "trade_output_qty": "1",
+    "trade_cost": "1 emerald",
+    "trade_level": "1",
+    "trade_reputation": "0"
+  },
+  {
+    "trade_type": "Buys",
+    "trade_input": "minecraft:paper",
+    "trade_input_qty": "4",
+    "trade_output": "minecraft:emerald",
+    "trade_output_qty": "1",
+    "trade_cost": "4 paper",
+    "trade_level": "1",
+    "trade_reputation": "0"
+  },
+  {
+    "trade_type": "Sells",
+    "trade_input": "minecraft:emerald",
+    "trade_input_qty": "5",
+    "trade_output": "minecraft:map",
+    "trade_output_qty": "1",
+    "trade_cost": "5 emeralds",
+    "trade_level": "3",
+    "trade_reputation": "0.5"
+  },
+  {
+    "trade_type": "Buys",
+    "trade_input": "minecraft:wheat",
+    "trade_input_qty": "20",
+    "trade_output": "minecraft:emerald",
+    "trade_output_qty": "1",
+    "trade_cost": "20 wheat",
+    "trade_level": "1",
+    "trade_reputation": "0"
+  },
+  {
+    "trade_type": "Sells",
+    "trade_input": "minecraft:emerald",
+    "trade_input_qty": "3",
+    "trade_output": "minecraft:lantern",
+    "trade_output_qty": "1",
+    "trade_cost": "3 emeralds",
+    "trade_level": "2",
+    "trade_reputation": "0"
+  }
+]

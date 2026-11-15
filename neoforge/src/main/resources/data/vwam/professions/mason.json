@@ -1,0 +1,68 @@
+{
+  "profession": "",
+  "display_name": "",
+  "description": "",
+  "workstation_block": "minecraft:stonecutter",
+  "trades": [
+    {
+      "item": "minecraft:stone",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:granite",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:diorite",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:andesite",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:blackstone",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:sandstone",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:stone_bricks",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:polished_granite",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:polished_diorite",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:polished_andesite",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:stone_stairs",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "reputation_buy": 0.0,
+      "level": 1
+    }
+  ]
+}

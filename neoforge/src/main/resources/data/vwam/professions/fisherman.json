@@ -1,0 +1,48 @@
+{
+  "profession": "",
+  "display_name": "",
+  "description": "",
+  "workstation_block": "minecraft:barrel",
+  "trades": [
+    {
+      "item": "minecraft:string",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:fish",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:salmon",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:tropical_fish",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:fishing_rod",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:fishing_rod",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:enchanted_fishing_rod",
+      "reputation_buy": 0.0,
+      "level": 4
+    }
+  ]
+}

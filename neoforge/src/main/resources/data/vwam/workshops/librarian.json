@@ -1,0 +1,59 @@
+{
+  "profession": "librarian",
+  "display_name": "Librarian Workshop",
+  
+  "xp_progression": {
+    "base_xp": 120,
+    "exponent": 1.6,
+    "max_level": 5,
+    "comment": "Librarians progress at a moderate-slow pace. Slightly harder than farmers due to their valuable book services."
+  },
+
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:lectern",
+        "minecraft:barrel",
+        "minecraft:chest"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Book crafting, knowledge storage, and material organization"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other lectern within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:paper",
+      "level": 1,
+      "comment": "Basic paper production"
+    },
+    {
+      "item": "minecraft:book",
+      "level": 1,
+      "comment": "Standard book binding"
+    },
+    {
+      "item": "minecraft:writable_book",
+      "level": 4,
+      "comment": "Advanced writing supplies"
+    }
+  ]
+}

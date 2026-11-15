@@ -1,0 +1,17 @@
+{
+  "display_name": "Default Village",
+  "base_stock_amount": 64,
+  "demand_threshold": 0.25,
+  "surplus_threshold": 0.75,
+  "demand_price_multiplier": 1.5,
+  "surplus_price_multiplier": 0.5,
+  "initial_reputation": 0.0,
+  "max_reputation": 1.0,
+  "min_reputation": -1.0,
+  "trade_reputation_gain": 0.05,
+  "hostile_threshold": -0.5,
+  "friendly_threshold": 0.5,
+  "trade_discount_per_step": 0.1,
+  "hero_buff_multiplier": 2.0,
+  "hero_buff_duration_hours": 24
+}

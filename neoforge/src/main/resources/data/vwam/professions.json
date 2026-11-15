@@ -1,0 +1,18 @@
+{
+  "description": "Registry of all supported villager professions",
+  "professions": [
+    "armorer",
+    "butcher",
+    "cartographer",
+    "cleric",
+    "farmer",
+    "fisherman",
+    "fletcher",
+    "leatherworker",
+    "librarian",
+    "mason",
+    "shepherd",
+    "toolsmith",
+    "weaponsmith"
+  ]
+}

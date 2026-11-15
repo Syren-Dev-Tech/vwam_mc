@@ -1,0 +1,42 @@
+{
+  "reputation_events": {
+    "comment": "Reputation changes for player actions with villages. Values range from -1.0 to 1.0. Negative values decrease reputation, positive values increase reputation.",
+    
+    "comment_negative_events": "Events that decrease player reputation",
+    "villager_killed": -0.20,
+    "villager_bed_stolen": -0.10,
+    "chest_looted": -0.05,
+    "block_broken": -0.02,
+    "villager_hit": -0.03,
+    "workstation_destroyed": -0.10,
+    "workshop_invalidated": -0.05,
+    
+    "comment_positive_events": "Events that increase player reputation",
+    "trade_completed": 0.01,
+    "raid_defeated": 0.20,
+    "resource_donated": 0.10,
+    "task_completed": 0.15,
+    "workstation_repaired": 0.10,
+    "emergency_aid_provided": 0.15
+  },
+  
+  "comment_guide": {
+    "overview": "This configuration defines how player actions affect their reputation with villages.",
+    "reputation_range": "Reputation ranges from -1.0 (hostile) to 1.0 (friendly), with 0.0 being neutral.",
+    "reputation_levels": {
+      "-1.0_to_-0.5": "Hostile - Villagers flee, iron golems attack",
+      "-0.5_to_0.0": "Unfriendly - Reduced trading, no services",
+      "0.0": "Neutral - Normal trading",
+      "0.0_to_0.5": "Agreeable - Basic services available",
+      "0.5_to_1.0": "Friendly - Trade discounts up to 50%",
+      "1.0": "Beloved - Maximum benefits"
+    },
+    "trade_discounts": "At 0.5+ reputation, each 0.1 gives 10% discount (max 50% at 1.0)",
+    "tips": [
+      "Keep negative values small to avoid making reputation too hard to recover",
+      "Keep positive values small for common events (like trades) to encourage many interactions",
+      "Use larger positive values for significant achievements (like completing raids)",
+      "Ensure major negative events (like killing villagers) are more impactful than minor issues"
+    ]
+  }
+}

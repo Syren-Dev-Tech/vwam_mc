@@ -1,0 +1,490 @@
+{
+  "description": "Central item trading value definitions. Value represents emeralds per item.",
+  "notes": [
+    "Example: 0.1 value = 10 items per emerald. 8.0 value = 8 emeralds per item",
+    "IMPORTANT: Use resource keys only (e.g., minecraft:diamond_pickaxe, not minecraft:enchanted_diamond_pickaxe)",
+    "Enchanted variants are now defined using NBT matching criteria"
+  ],
+  "version": "2.0",
+  "changelog": [
+    "v2.0: Added support for item variants with NBT matching (enchantments, custom names, lore)",
+    "Items can now be defined as single objects or arrays of variants with match criteria",
+    "Removed fake \"enchanted_*\" item IDs - use match criteria instead",
+    "Higher priority variants are matched first"
+  ],
+  "items": {
+    "minecraft:stick": {
+      "value": 0.0312
+    },
+    "minecraft:flint": {
+      "value": 0.0385
+    },
+    "minecraft:potato": {
+      "value": 0.0385
+    },
+    "minecraft:feather": {
+      "value": 0.0417
+    },
+    "minecraft:paper": {
+      "value": 0.0417
+    },
+    "minecraft:carrot": {
+      "value": 0.0455
+    },
+    "minecraft:wheat": {
+      "value": 0.05
+    },
+    "minecraft:white_wool": {
+      "value": 0.0556
+    },
+    "minecraft:orange_wool": {
+      "value": 0.0556
+    },
+    "minecraft:magenta_wool": {
+      "value": 0.0556
+    },
+    "minecraft:light_blue_wool": {
+      "value": 0.0556
+    },
+    "minecraft:yellow_wool": {
+      "value": 0.0556
+    },
+    "minecraft:arrow": {
+      "value": 0.0625
+    },
+    "minecraft:coal": {
+      "value": 0.0667
+    },
+    "minecraft:redstone_dust": {
+      "value": 0.0667
+    },
+    "minecraft:beetroot": {
+      "value": 0.0667
+    },
+    "minecraft:chicken": {
+      "value": 0.0714
+    },
+    "minecraft:green_dye": {
+      "value": 0.0833
+    },
+    "minecraft:glass_pane": {
+      "value": 0.0909
+    },
+    "minecraft:fish": {
+      "value": 0.1
+    },
+    "minecraft:salmon": {
+      "value": 0.1
+    },
+    "minecraft:tropical_fish": {
+      "value": 0.1
+    },
+    "minecraft:pufferfish": {
+      "value": 0.1
+    },
+    "minecraft:rabbit": {
+      "value": 0.1
+    },
+    "minecraft:beef": {
+      "value": 0.1
+    },
+    "minecraft:leather": {
+      "value": 0.1
+    },
+    "minecraft:sweet_berries": {
+      "value": 0.1
+    },
+    "minecraft:stone": {
+      "value": 0.1
+    },
+    "minecraft:granite": {
+      "value": 0.1
+    },
+    "minecraft:diorite": {
+      "value": 0.1
+    },
+    "minecraft:andesite": {
+      "value": 0.1
+    },
+    "minecraft:blackstone": {
+      "value": 0.1
+    },
+    "minecraft:sandstone": {
+      "value": 0.1
+    },
+    "minecraft:book": {
+      "value": 0.125
+    },
+    "minecraft:cooked_chicken": {
+      "value": 0.125
+    },
+    "minecraft:cooked_rabbit": {
+      "value": 0.125
+    },
+    "minecraft:cooked_beef": {
+      "value": 0.125
+    },
+    "minecraft:glow_berries": {
+      "value": 0.125
+    },
+    "minecraft:pork": {
+      "value": 0.1429
+    },
+    "minecraft:mutton": {
+      "value": 0.1429
+    },
+    "minecraft:glass_bottle": {
+      "value": 0.1667
+    },
+    "minecraft:cookie": {
+      "value": 0.1667
+    },
+    "minecraft:stone_stairs": {
+      "value": 0.1667
+    },
+    "minecraft:stone_slab": {
+      "value": 0.1667
+    },
+    "minecraft:string": {
+      "value": 0.2
+    },
+    "minecraft:ink_sac": {
+      "value": 0.2
+    },
+    "minecraft:cooked_pork": {
+      "value": 0.2
+    },
+    "minecraft:cooked_mutton": {
+      "value": 0.2
+    },
+    "minecraft:spectral_arrow": {
+      "value": 0.25
+    },
+    "minecraft:glowstone_dust": {
+      "value": 0.25
+    },
+    "minecraft:apple": {
+      "value": 0.25
+    },
+    "minecraft:stone_bricks": {
+      "value": 0.25
+    },
+    "minecraft:polished_granite": {
+      "value": 0.25
+    },
+    "minecraft:polished_diorite": {
+      "value": 0.25
+    },
+    "minecraft:polished_andesite": {
+      "value": 0.25
+    },
+    "minecraft:copper_ingot": {
+      "value": 0.3333
+    },
+    "minecraft:tipped_arrow": {
+      "value": 0.4
+    },
+    "minecraft:copper_ore": {
+      "value": 1.0
+    },
+    "minecraft:iron_ore": {
+      "value": 1.0
+    },
+    "minecraft:lapis_lazuli": {
+      "value": 1.0
+    },
+    "minecraft:quartz": {
+      "value": 1.0
+    },
+    "minecraft:iron_pickaxe": {
+      "value": 1.0
+    },
+    "minecraft:iron_axe": {
+      "value": 1.0
+    },
+    "minecraft:iron_hoe": {
+      "value": 1.0
+    },
+    "minecraft:iron_shovel": {
+      "value": 1.0
+    },
+    "minecraft:white_dye": {
+      "value": 1.0
+    },
+    "minecraft:blue_dye": {
+      "value": 1.0
+    },
+    "minecraft:red_dye": {
+      "value": 1.0
+    },
+    "minecraft:carpet": {
+      "value": 1.0
+    },
+    "minecraft:iron_sword": {
+      "value": 1.0
+    },
+    "minecraft:rabbit_hide": {
+      "value": 1.0
+    },
+    "minecraft:redstone_lamp": {
+      "value": 1.0
+    },
+    "minecraft:glowstone": {
+      "value": 1.0
+    },
+    "minecraft:pumpkin": {
+      "value": 1.0
+    },
+    "minecraft:melon": {
+      "value": 1.0
+    },
+    "minecraft:bread": {
+      "value": 1.0
+    },
+    "minecraft:pumpkin_pie": {
+      "value": 1.0
+    },
+    "minecraft:cake": {
+      "value": 1.0
+    },
+    "minecraft:lantern": {
+      "value": 2.0
+    },
+    "minecraft:redstone": {
+      "value": 2.0
+    },
+    "minecraft:iron_ingot": {
+      "value": 2.0
+    },
+    "minecraft:iron_boots": {
+      "value": 4.0
+    },
+    "minecraft:chainmail_boots": {
+      "value": 4.0
+    },
+    "minecraft:leather_helmet": {
+      "value": 4.0
+    },
+    "minecraft:leather_boots": {
+      "value": 4.0
+    },
+    "minecraft:enchanted_book": {
+      "value": 5.0
+    },
+    "minecraft:iron_helmet": {
+      "value": 5.0
+    },
+    "minecraft:chainmail_helmet": {
+      "value": 5.0
+    },
+    "minecraft:emerald": {
+      "value": 5.0
+    },
+    "minecraft:fishing_rod": [
+      {
+        "value": 8.0,
+        "priority": 10,
+        "match": {
+          "enchanted": true
+        },
+        "functions": [
+          {
+            "function": "minecraft:set_lore",
+            "replace": false,
+            "lore": [
+              {
+                "text": "\u00a79\u2726 Enchanted \u2726"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": 6.0,
+        "priority": 1,
+        "match": {}
+      }
+    ],
+    "minecraft:leather_leggings": {
+      "value": 6.0
+    },
+    "minecraft:iron_leggings": {
+      "value": 7.0
+    },
+    "minecraft:chainmail_leggings": {
+      "value": 7.0
+    },
+    "minecraft:diamond_sword": [
+      {
+        "value": 24.0,
+        "priority": 10,
+        "match": {
+          "enchanted": true
+        },
+        "functions": [
+          {
+            "function": "minecraft:set_lore",
+            "replace": false,
+            "lore": [
+              {
+                "text": "\u00a7c\u2726 Enchanted \u2726"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": 7.0,
+        "priority": 1,
+        "match": {}
+      }
+    ],
+    "minecraft:leather_chestplate": {
+      "value": 7.0
+    },
+    "minecraft:item_frame": {
+      "value": 7.0
+    },
+    "minecraft:diamond": {
+      "value": 8.0
+    },
+    "minecraft:iron_chestplate": {
+      "value": 8.0
+    },
+    "minecraft:chainmail_chestplate": {
+      "value": 8.0
+    },
+    "minecraft:diamond_boots": {
+      "value": 8.0
+    },
+    "minecraft:lightning_rod": {
+      "value": 8.0
+    },
+    "minecraft:diamond_helmet": {
+      "value": 9.0
+    },
+    "minecraft:writable_book": {
+      "value": 10.0
+    },
+    "minecraft:written_book": {
+      "value": 10.0
+    },
+    "minecraft:clock": {
+      "value": 10.0
+    },
+    "minecraft:saddle": {
+      "value": 10.0
+    },
+    "minecraft:golden_carrot": {
+      "value": 10.0
+    },
+    "minecraft:compass": {
+      "value": 12.0
+    },
+    "minecraft:diamond_pickaxe": [
+      {
+        "value": 35.0,
+        "priority": 10,
+        "match": {
+          "enchanted": true
+        },
+        "functions": [
+          {
+            "function": "minecraft:set_lore",
+            "replace": false,
+            "lore": [
+              {
+                "text": "\u00a76\u2726 Enchanted Tool \u2726"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": 12.0,
+        "priority": 1,
+        "match": {}
+      }
+    ],
+    "minecraft:dark_prism": {
+      "value": 12.0
+    },
+    "minecraft:map": {
+      "value": 12.0
+    },
+    "minecraft:diamond_leggings": {
+      "value": 14.0
+    },
+    "minecraft:pointer": {
+      "value": 14.0
+    },
+    "minecraft:diamond_chestplate": {
+      "value": 16.0
+    },
+    "minecraft:diamond_hoe": {
+      "value": 18.0
+    },
+    "minecraft:diamond_shovel": {
+      "value": 18.0
+    },
+    "minecraft:diamond_axe": [
+      {
+        "value": 24.0,
+        "priority": 10,
+        "match": {
+          "enchanted": true
+        },
+        "functions": [
+          {
+            "function": "minecraft:set_lore",
+            "replace": false,
+            "lore": [
+              {
+                "text": "\u00a7c\u2726 Enchanted \u2726"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": 19.0,
+        "priority": 1,
+        "match": {}
+      }
+    ],
+    "minecraft:name_tag": {
+      "value": 20.0
+    },
+    "minecraft:golden_apple": [
+      {
+        "value": 30.0,
+        "priority": 10,
+        "match": {
+          "enchanted": true
+        },
+        "functions": [
+          {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "\u00a76\u2728 Golden Apple \u2728"
+            }
+          },
+          {
+            "function": "minecraft:set_lore",
+            "replace": false,
+            "lore": [
+              {
+                "text": "\u00a76\u2726 Enchanted \u2726"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "value": 1.0,
+        "priority": 1,
+        "match": {}
+      }
+    ]
+  }
+}

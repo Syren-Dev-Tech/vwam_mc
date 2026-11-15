@@ -1,0 +1,97 @@
+{
+  "profession": "armorer",
+  "display_name": "Armorer Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:smithing_table",
+        "minecraft:blast_furnace",
+        "minecraft:furnace"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Smithing, smelting armor, and basic furnace work"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other blast furnace within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:iron_helmet",
+      "level": 3,
+      "comment": "Basic armor piece"
+    },
+    {
+      "item": "minecraft:iron_chestplate",
+      "level": 4,
+      "comment": "Advanced armor piece"
+    },
+    {
+      "item": "minecraft:iron_leggings",
+      "level": 3,
+      "comment": "Basic armor piece"
+    },
+    {
+      "item": "minecraft:iron_boots",
+      "level": 3,
+      "comment": "Basic armor piece"
+    },
+    {
+      "item": "minecraft:chainmail_helmet",
+      "level": 3,
+      "comment": "Specialty armor piece"
+    },
+    {
+      "item": "minecraft:chainmail_chestplate",
+      "level": 4,
+      "comment": "Specialty armor piece"
+    },
+    {
+      "item": "minecraft:chainmail_leggings",
+      "level": 3,
+      "comment": "Specialty armor piece"
+    },
+    {
+      "item": "minecraft:chainmail_boots",
+      "level": 3,
+      "comment": "Specialty armor piece"
+    },
+    {
+      "item": "minecraft:diamond_helmet",
+      "level": 4,
+      "comment": "High-tier armor piece"
+    },
+    {
+      "item": "minecraft:diamond_chestplate",
+      "level": 5,
+      "comment": "High-tier armor piece"
+    },
+    {
+      "item": "minecraft:diamond_leggings",
+      "level": 4,
+      "comment": "High-tier armor piece"
+    },
+    {
+      "item": "minecraft:diamond_boots",
+      "level": 4,
+      "comment": "High-tier armor piece"
+    }
+  ]
+}

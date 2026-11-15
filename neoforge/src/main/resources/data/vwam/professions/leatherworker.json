@@ -1,0 +1,88 @@
+{
+  "profession": "leatherworker",
+  "display_name": "Leatherworker",
+  "description": "Skilled in leather crafting and processing",
+  "workstation_block": "minecraft:cauldron",
+  "trades": [
+    {
+      "item": "minecraft:leather",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:rabbit_hide",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:flint",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:saddle",
+      "reputation_sell": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:leather_helmet",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_helmet",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:saddle",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:leather",
+      "reputation_buy": 0.0,
+      "level": 1
+    }
+  ]
+}

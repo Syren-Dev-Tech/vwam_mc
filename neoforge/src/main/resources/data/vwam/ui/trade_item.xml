@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<part id="trade_item" width="100%" height="42" flex="row" align="between" style="backgroundColor:#6B6345;borderColor:#4C4C3C;color:#FFFFFF;fontSize:8"
+    xmlns="https://syren-dev-tech.com/slml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://syren-dev-tech.com/slml https://raw.githubusercontent.com/Syren-Dev-Tech/slml/refs/heads/main/schema/layout-schema.xsd"
+>
+    <part id="item_display" width="25%" height="20" flex="row" style="backgroundColor:#5C5030;borderColor:#3C3020;fontSize:8" align="between">
+        <item id="item_icon" width="16" height="16">{{trade_output}}</item>
+        <item-name id="item_name" width="80%" height="5" style="color:#FFFFFF;fontSize:7" item="{{trade_output}}" />
+    </part>
+
+    <part id="reputation_requirement" width="25%" height="20" flex="column" style="backgroundColor:#5C5030;borderColor:#3C3020;fontSize:6">
+        <part id="level_requirement" width="100%" height="10" flex="row" style="backgroundColor:#5C5030;borderColor:#3C3020;fontSize:6">
+            <text id="level_label" width="50%" height="7" style="color:#CCCCCC;fontSize:5">Lvl:</text>
+            <text id="level_value" width="50%" height="7" style="color:#FFCC99;fontSize:6">{{trade_level}}</text>
+        </part>
+
+        <part id="reputation_requirement_inner" width="100%" height="10" flex="row" style="backgroundColor:#5C5030;borderColor:#3C3020;fontSize:6">
+            <text id="reputation_label" width="50%" height="7" style="color:#CCCCCC;fontSize:5">Rep:</text>
+            <text id="reputation_value" width="50%" height="7" style="color:#FFCC99;fontSize:6">{{trade_reputation}}</text>
+        </part>
+    </part>
+
+    <part id="trade_ratio_section" width="25%" height="20" flex="column" style="backgroundColor:#7A6355;borderColor:#5C4C3C;color:#FFFFFF;fontSize:7">
+        <part id="trade_input_display" width="100%" height="9" flex="row" style="backgroundColor:#6B5A45;borderColor:#4C3C2C;fontSize:6">
+            <text id="input_quantity" width="30%" height="8" style="color:#FFD700;fontSize:6">{{trade_input_qty}}</text>
+            <item id="input_item_icon" width="16" height="16">{{trade_input}}</item>
+            <item-name id="input_item_name" width="70%" height="8" style="color:#FFCC99;fontSize:6" item="{{trade_input}}" />
+        </part>
+
+        <part id="trade_output_display" width="100%" height="9" flex="row" style="backgroundColor:#6B5A45;borderColor:#4C3C2C;fontSize:6">
+            <text id="output_quantity" width="30%" height="8" style="color:#FFD700;fontSize:6">{{trade_output_qty}}</text>
+            <item id="output_item_icon" width="16" height="16">{{trade_output}}</item>
+            <item-name id="output_item_name" width="70%" height="8" style="color:#FFCC99;fontSize:6" item="{{trade_output}}" />
+        </part>
+    </part>
+
+    <part id="action_btns" width="25%" height="20" flex="column">
+        <button id="buy_btn" width="100%" height="9" vanilla="true">Buy</button>
+        <button id="sell_btn" width="100%" height="9" vanilla="true">Sell</button>
+    </part>
+</part>

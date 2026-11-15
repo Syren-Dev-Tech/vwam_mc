@@ -1,0 +1,38 @@
+{
+  "profession": "",
+  "display_name": "",
+  "description": "",
+  "workstation_block": "minecraft:cartography_table",
+  "trades": [
+    {
+      "item": "minecraft:paper",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:glass_pane",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:map",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:map",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:item_frame",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:pointer",
+      "reputation_buy": 0.0,
+      "level": 4
+    }
+  ]
+}

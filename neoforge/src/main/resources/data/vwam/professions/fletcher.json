@@ -1,0 +1,53 @@
+{
+  "profession": "fletcher",
+  "display_name": "Fletcher",
+  "description": "Master of arrows and ammunition",
+  "workstation_block": "minecraft:fletching_table",
+  "trades": [
+    {
+      "item": "minecraft:stick",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:flint",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:string",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:feather",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:green_dye",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:arrow",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:stick",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:spectral_arrow",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "reputation_buy": 0.0,
+      "level": 1
+    }
+  ]
+}

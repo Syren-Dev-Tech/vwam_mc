@@ -1,0 +1,63 @@
+{
+  "profession": "",
+  "display_name": "",
+  "description": "",
+  "workstation_block": "minecraft:smoker",
+  "trades": [
+    {
+      "item": "minecraft:chicken",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:pork",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:rabbit",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:mutton",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:beef",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:emerald",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:cooked_pork",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:cooked_rabbit",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:cooked_mutton",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "reputation_buy": 0.0,
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "profession": "farmer",
+  "display_name": "Farmer",
+  "description": "Specialist in crops and food production",
+  "workstation_block": "minecraft:composter",
+  "trades": [
+    {
+      "item": "minecraft:wheat",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:potato",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:carrot",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:melon",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:beetroot",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:glow_berries",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:bread",
+      "reputation_buy": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:pumpkin_pie",
+      "reputation_buy": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:cookie",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:cake",
+      "reputation_buy": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:apple",
+      "reputation_buy": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "reputation_buy": 0.0,
+      "level": 5
+    },
+    {
+      "item": "minecraft:emerald",
+      "reputation_buy": 0.0,
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "block": "minecraft:brewing_stand",
+  "display_name": "Brewing Stand",
+  "is_poi": true
+}

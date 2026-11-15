@@ -1,0 +1,77 @@
+{
+  "profession": "toolsmith",
+  "display_name": "Toolsmith Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:smithing_table",
+        "minecraft:furnace",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Smithing, smelting, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other smithing table within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:iron_pickaxe",
+      "level": 2,
+      "comment": "Basic iron tool"
+    },
+    {
+      "item": "minecraft:iron_axe",
+      "level": 2,
+      "comment": "Basic iron tool"
+    },
+    {
+      "item": "minecraft:iron_hoe",
+      "level": 2,
+      "comment": "Basic iron tool"
+    },
+    {
+      "item": "minecraft:iron_shovel",
+      "level": 2,
+      "comment": "Basic iron tool"
+    },
+    {
+      "item": "minecraft:diamond_pickaxe",
+      "level": 4,
+      "comment": "Advanced diamond tool"
+    },
+    {
+      "item": "minecraft:diamond_axe",
+      "level": 5,
+      "comment": "High-tier diamond tool"
+    },
+    {
+      "item": "minecraft:diamond_hoe",
+      "level": 5,
+      "comment": "High-tier diamond tool"
+    },
+    {
+      "item": "minecraft:diamond_shovel",
+      "level": 5,
+      "comment": "High-tier diamond tool"
+    }
+  ]
+}

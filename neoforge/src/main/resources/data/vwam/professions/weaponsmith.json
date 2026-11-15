@@ -1,0 +1,48 @@
+{
+  "profession": "",
+  "display_name": "",
+  "description": "",
+  "workstation_block": "minecraft:grindstone",
+  "trades": [
+    {
+      "item": "minecraft:iron_sword",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:iron_axe",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "reputation_sell": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:diamond_axe",
+      "reputation_sell": 0.0,
+      "level": 5
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:diamond_axe",
+      "reputation_buy": 0.0,
+      "level": 5
+    },
+    {
+      "item": "minecraft:enchanted_diamond_sword",
+      "reputation_buy": 0.0,
+      "level": 5
+    },
+    {
+      "item": "minecraft:enchanted_diamond_axe",
+      "reputation_buy": 0.0,
+      "level": 5
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "profession": "",
+  "display_name": "",
+  "description": "",
+  "workstation_block": "minecraft:brewing_stand",
+  "trades": [
+    {
+      "item": "minecraft:redstone_dust",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:redstone_lamp",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:quartz",
+      "reputation_sell": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "reputation_buy": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:glowstone",
+      "reputation_buy": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:compass",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:clock",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:lightning_rod",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:dark_prism",
+      "reputation_buy": 0.0,
+      "level": 4
+    }
+  ]
+}

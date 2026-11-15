@@ -1,0 +1,67 @@
+{
+  "profession": "butcher",
+  "display_name": "Butcher Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:crafting_table",
+        "minecraft:smoker",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Meat processing, smoking, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other smoker within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:cooked_chicken",
+      "level": 1,
+      "comment": "Basic meat product"
+    },
+    {
+      "item": "minecraft:cooked_pork",
+      "level": 1,
+      "comment": "Basic meat product"
+    },
+    {
+      "item": "minecraft:cooked_rabbit",
+      "level": 1,
+      "comment": "Basic meat product"
+    },
+    {
+      "item": "minecraft:cooked_mutton",
+      "level": 1,
+      "comment": "Basic meat product"
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "level": 2,
+      "comment": "Advanced meat product"
+    },
+    {
+      "item": "minecraft:steak",
+      "level": 2,
+      "comment": "Advanced meat product"
+    }
+  ]
+}

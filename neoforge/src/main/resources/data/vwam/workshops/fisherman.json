@@ -1,0 +1,57 @@
+{
+  "profession": "fisherman",
+  "display_name": "Fisherman Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:crafting_table",
+        "minecraft:barrel",
+        "minecraft:campfire"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Fish processing, cooking, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other barrel within 9 blocks (other than storage)"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:cooked_cod",
+      "level": 1,
+      "comment": "Basic fish product"
+    },
+    {
+      "item": "minecraft:cooked_salmon",
+      "level": 1,
+      "comment": "Basic fish product"
+    },
+    {
+      "item": "minecraft:tropical_fish",
+      "level": 2,
+      "comment": "Specialty fish"
+    },
+    {
+      "item": "minecraft:pufferfish",
+      "level": 3,
+      "comment": "Advanced fish product"
+    }
+  ]
+}

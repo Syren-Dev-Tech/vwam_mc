@@ -1,0 +1,64 @@
+{
+  "profession": "cleric",
+  "display_name": "Cleric Workshop",
+  
+  "xp_progression": {
+    "base_xp": 150,
+    "exponent": 1.8,
+    "max_level": 5,
+    "comment": "Clerics progress slowly due to their powerful healing and status effect removal abilities."
+  },
+
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:cauldron",
+        "minecraft:brewing_stand",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Potion brewing, alchemy, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other brewing stand within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:potion",
+      "level": 1,
+      "comment": "Basic potion brewing"
+    },
+    {
+      "item": "minecraft:redstone_lamp",
+      "level": 2,
+      "comment": "Magical lighting"
+    },
+    {
+      "item": "minecraft:glowstone",
+      "level": 2,
+      "comment": "Glowing essence crafting"
+    },
+    {
+      "item": "minecraft:respawn_anchor",
+      "level": 4,
+      "comment": "High-tier magical item"
+    }
+  ]
+}

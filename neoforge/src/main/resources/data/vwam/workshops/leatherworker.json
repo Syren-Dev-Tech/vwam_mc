@@ -1,0 +1,62 @@
+{
+  "profession": "leatherworker",
+  "display_name": "Leatherworker Workshop",
+  
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:cauldron",
+        "minecraft:smoker",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Leather dyeing, smoking, and material storage"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other cauldron within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:leather_helmet",
+      "level": 3,
+      "comment": "Basic leather armor"
+    },
+    {
+      "item": "minecraft:leather_chestplate",
+      "level": 3,
+      "comment": "Basic leather armor"
+    },
+    {
+      "item": "minecraft:leather_leggings",
+      "level": 3,
+      "comment": "Basic leather armor"
+    },
+    {
+      "item": "minecraft:leather_boots",
+      "level": 3,
+      "comment": "Basic leather armor"
+    },
+    {
+      "item": "minecraft:saddle",
+      "level": 4,
+      "comment": "High-tier leather product"
+    }
+  ]
+}

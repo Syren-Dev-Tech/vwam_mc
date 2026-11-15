@@ -1,0 +1,119 @@
+{
+  "profession": "farmer",
+  "display_name": "Farmer Workshop",
+  
+  "xp_progression": {
+    "base_xp": 100,
+    "exponent": 1.5,
+    "max_level": 5,
+    "comment": "Farmers level up moderately. Each level requires 1.5x more XP than the previous level."
+  },
+
+  "validation_rules": {
+    "support_workstations": {
+      "required_count": 3,
+      "types": [
+        "minecraft:composter",
+        "minecraft:hopper",
+        "minecraft:water"
+      ],
+      "max_distance_blocks": 9,
+      "description": "Composting, item processing, and water source for crops"
+    },
+    "storage": {
+      "required": true,
+      "types": [
+        "minecraft:chest",
+        "minecraft:trapped_chest",
+        "minecraft:barrel"
+      ],
+      "max_distance_blocks": 9
+    },
+    "free_space_3x3": {
+      "required": true,
+      "min_light_level": 10
+    },
+    "workstation_spacing": {
+      "min_distance_blocks": 9,
+      "description": "No other composter within 9 blocks"
+    }
+  },
+
+  "produce": [
+    {
+      "item": "minecraft:wheat",
+      "level": 1,
+      "comment": "Base crop production"
+    },
+    {
+      "item": "minecraft:potato",
+      "level": 1,
+      "comment": "Base crop production"
+    },
+    {
+      "item": "minecraft:carrot",
+      "level": 1,
+      "comment": "Base crop production"
+    },
+    {
+      "item": "minecraft:beetroot",
+      "level": 1,
+      "comment": "Base crop production"
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "level": 1,
+      "comment": "Base crop production"
+    },
+    {
+      "item": "minecraft:glow_berries",
+      "level": 1,
+      "comment": "Base crop production"
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "level": 2,
+      "comment": "Advanced crop production"
+    },
+    {
+      "item": "minecraft:melon",
+      "level": 2,
+      "comment": "Advanced crop production"
+    },
+    {
+      "item": "minecraft:bread",
+      "level": 2,
+      "comment": "Requires crafting wheat"
+    },
+    {
+      "item": "minecraft:cookie",
+      "level": 1,
+      "comment": "Requires cocoa and wheat"
+    },
+    {
+      "item": "minecraft:cake",
+      "level": 2,
+      "comment": "Requires multiple ingredients"
+    },
+    {
+      "item": "minecraft:pumpkin_pie",
+      "level": 2,
+      "comment": "Requires pumpkin and egg"
+    },
+    {
+      "item": "minecraft:apple",
+      "level": 1,
+      "comment": "Basic food item"
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "level": 4,
+      "comment": "Requires gold and carrot"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "level": 5,
+      "comment": "High-tier item requires gold block and apple"
+    }
+  ]
+}

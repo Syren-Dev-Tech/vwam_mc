@@ -1,0 +1,73 @@
+{
+  "profession": "librarian",
+  "display_name": "Librarian",
+  "description": "Scholar and keeper of knowledge",
+  "workstation_block": "minecraft:lectern",
+  "trades": [
+    {
+      "item": "minecraft:paper",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:book",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "reputation_sell": 0.0,
+      "level": 1
+    },
+    {
+      "item": "minecraft:writable_book",
+      "reputation_sell": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:written_book",
+      "reputation_sell": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "reputation_buy": 0.0,
+      "level": 3
+    },
+    {
+      "item": "minecraft:clock",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:compass",
+      "reputation_buy": 0.0,
+      "level": 4
+    },
+    {
+      "item": "minecraft:name_tag",
+      "reputation_buy": 0.0,
+      "level": 5
+    },
+    {
+      "item": "minecraft:lantern",
+      "reputation_buy": 0.0,
+      "level": 2
+    },
+    {
+      "item": "minecraft:glass_bottle",
+      "reputation_buy": 0.0,
+      "level": 1
+    }
+  ]
+}
