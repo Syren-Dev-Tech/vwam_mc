@@ -39,14 +39,14 @@ jobs:
         with:
           gradle-version: ${{ env.GRADLE_VERSION }}
 
-      - name: Build JAR artifacts
-        shell: bash
-        run: $BUILD_COMMAND
-
       - name: Install Task
         uses: go-task/setup-task@v2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build JAR artifacts
+        shell: bash
+        run: $BUILD_COMMAND
 
       - name: Create or update GitHub release for tag
         env:
